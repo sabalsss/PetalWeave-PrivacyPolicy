@@ -57,111 +57,109 @@
   </header>
 
   <div class="summary">
-    <strong>In short</strong>
+    <strong>The short version</strong>
     <ul>
-      <li>No account, no advertising, no in-app purchases, and no tracking across other apps or websites.</li>
-      <li>Your game progress stays on your iPhone.</li>
-      <li>Anonymous gameplay analytics and crash reports are <strong>optional</strong>. They are only collected if you choose <em>Allow &amp; Continue</em> or turn them on in Settings, and you can turn them off at any time.</li>
+      <li>Petal Weave has no accounts, no ads and no in-app purchases.</li>
+      <li>Your game progress is saved on your iPhone, not on our servers.</li>
+      <li>If you tap <em>Allow</em>, the game shares gameplay stats and crash reports with Google Firebase so we can balance levels and fix bugs. This doesn’t include your name or email, it’s linked to a random ID rather than to you, and it’s never used for ads or tracking.</li>
+      <li>You can turn sharing off at any time in Settings, and the game works exactly the same.</li>
     </ul>
   </div>
 
   <section>
-    <h2>1. Who we are</h2>
-    <p>Petal Weave: Color Sort (“Petal Weave”, “the game”) is a free puzzle game for iPhone developed and operated by <strong>Sabal Chaulagain</strong> (“we”, “us”).</p>
-    <p>Questions, requests and data-deletion requests: <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a>.</p>
+    <h2>Who we are</h2>
+    <p>Petal Weave: Color Sort (“Petal Weave” or “the game”) is a free puzzle game for iPhone made by <strong>Sabal Chaulagain</strong> (“we” or “us”).</p>
+    <p>If you have a question about privacy or want to make a request, email <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a>.</p>
   </section>
 
   <section>
-    <h2>2. Information stored only on your device</h2>
-    <p>To save your game, Petal Weave keeps a file on your iPhone containing your progress and preferences: levels played and completed, the level in progress (so you can resume it), coins and seeds, boosters, your garden, cosmetics, achievements, daily-puzzle streaks, and settings such as sound, music, haptics, spoken praise, reminders and your privacy choices.</p>
-    <p>This information is not sent to us or to anyone else. It is deleted when you delete the app. Like other app data, it may be included in backups of your iPhone that you make with Apple’s iCloud or a computer; those backups are controlled by you and Apple.</p>
+    <h2>Your game progress stays on your iPhone</h2>
+    <p>To remember where you are, the game saves a file on your iPhone with your levels, the level you’re in the middle of, coins, seeds, boosters, garden, decorations, achievements, daily-puzzle streak and settings (such as sound, music, reminders and your privacy choices).</p>
+    <p>We don’t receive this file. It’s removed when you delete the game. Like other app data, it can be included in iPhone backups you make with iCloud or a computer, which you and Apple control.</p>
   </section>
 
   <section>
-    <h2>3. Optional gameplay analytics (Google Firebase Analytics)</h2>
-    <p>Only if you choose <em>Allow &amp; Continue</em> or turn on <em>Share Gameplay Analytics</em> in Settings, the game sends anonymous gameplay events to Google Firebase Analytics so we can see which levels are too hard or too easy and how features are used. Until then, analytics collection is switched off in the app.</p>
-    <h3>What is sent</h3>
+    <h2>When you first open the game</h2>
+    <p>The first time you open Petal Weave, a short message explains that the game would like to share gameplay stats and crash reports, and you tap <em>Allow</em> to continue. This turns on the two optional features described below.</p>
+    <p>You can switch either of them off straight away, or at any time, in the game’s Settings (Pause → Home → Settings). Switching them off doesn’t change or limit the game in any way.</p>
+  </section>
+
+  <section>
+    <h2>Gameplay stats (Google Firebase Analytics)</h2>
+    <p>While <em>Share Gameplay Analytics</em> is on, the game sends information about how the game is played, so we can see which levels feel too hard or too easy and which features people enjoy.</p>
+    <h3>What it includes</h3>
     <ul>
-      <li><strong>Gameplay events:</strong> tutorial started and completed; level started, won, got stuck, restarted or left; daily puzzle completed; boosters used (Undo, Hint, Extra Vine); garden opened; in-game coins or seeds spent and on which in-game item; screens viewed; the game resuming a saved level.</li>
-      <li><strong>Event details:</strong> level number, number of moves, active play time, number of boosters and restarts, rejected moves, whether a level was won, and the game version.</li>
-      <li><strong>Information Firebase adds automatically:</strong> a random app-instance identifier for this installation, the app version, device model, iOS version, language and region settings, session start and engagement time, first open and app updates, and an approximate location (country or region) that Google derives from your network’s IP address.</li>
+      <li><strong>What happens in the game:</strong> starting and finishing the tutorial; starting, winning, getting stuck in, restarting or leaving a level; finishing the daily puzzle; using a booster; opening your garden; spending in-game coins or seeds (and on what); which screens you visit; and returning to a level you left unfinished.</li>
+      <li><strong>Details about a level:</strong> the level number, how many moves you made, how long you actively played, how many boosters and restarts you used, how many moves didn’t fit, whether you won, and the version of the game.</li>
+      <li><strong>Information Firebase adds:</strong> a random ID for your copy of the game, your device model, iOS version, language and region settings, when you started playing and for how long, when the game was first opened or updated, and an approximate location (such as country or city) that Google works out from your internet connection’s IP address.</li>
     </ul>
-    <h3>What is not collected</h3>
-    <p>Your name, email address, phone number, contacts, photos, precise location, the Apple advertising identifier (IDFA), or anything you type. The game uses a version of Firebase Analytics that does not include advertising-identifier support, and advertising and ad-personalisation features are disabled.</p>
+    <h3>What it doesn’t include</h3>
+    <p>Your name, email address, phone number, contacts, photos, precise location, Apple’s advertising identifier, or anything you type. We use a version of Firebase Analytics without advertising-identifier support, and its advertising features are turned off.</p>
   </section>
 
   <section>
-    <h2>4. Optional crash reports (Google Firebase Crashlytics)</h2>
-    <p>Only if you choose <em>Allow &amp; Continue</em> or turn on <em>Send Crash Reports</em> in Settings, the game sends a report to Google Firebase Crashlytics when it crashes. A report contains the technical crash log (where in the code the crash happened), device model, iOS version, app version, free memory and disk space, a random installation identifier, and the level you were playing.</p>
-    <p>Crash reports created before you turned crash reporting on are deleted, not sent.</p>
+    <h2>Crash reports (Google Firebase Crashlytics)</h2>
+    <p>While <em>Send Crash Reports</em> is on, if the game crashes it sends a report so we can find and fix the problem. A report includes technical details about where the crash happened, your device model, iOS version, game version, available memory and storage, a random ID for your copy of the game, and the level you were playing.</p>
+    <p>If crash reporting is off, crash reports aren’t sent, and any saved from that time are deleted rather than sent later.</p>
   </section>
 
   <section>
-    <h2>5. Identifiers and diagnostic information</h2>
-    <p>When analytics or crash reporting is on, Firebase uses random identifiers generated for this installation of the game (an app-instance ID and a Firebase installation ID). They are not linked to your name or Apple Account, are not shared with other apps, and change if you reinstall the game. Turning analytics off resets the analytics identifier on your device.</p>
+    <h2>About the random IDs</h2>
+    <p>Firebase uses random IDs created for your copy of the game so it can tell one player’s stats apart from another’s. They aren’t connected to your name or Apple Account, aren’t shared with other apps, and change if you reinstall the game. Turning gameplay stats off also resets the ID on your iPhone.</p>
   </section>
 
   <section>
-    <h2>6. Daily reminder notifications</h2>
-    <p>After the tutorial, the game may ask whether you would like a daily reminder. If you agree, iOS asks for permission to show notifications. The reminder is a local notification scheduled on your iPhone for 7 pm each day; it sends no information to us or to anyone else, and the game does not use push notifications. You can turn the reminder off in the game’s Settings, or turn notifications off in iOS Settings → Notifications → Petal Weave.</p>
+    <h2>Daily reminders</h2>
+    <p>After the tutorial, the game may ask if you’d like a daily reminder to play. If you say yes, iOS asks for permission to show notifications. The reminder is set up on your iPhone for 7 pm each day; it doesn’t send any information to us or anyone else. You can turn it off in the game’s Settings, or in iOS Settings → Notifications → Petal Weave.</p>
   </section>
 
   <section>
-    <h2>7. Why we use information</h2>
+    <h2>How we use information</h2>
     <ul>
-      <li>To keep your game progress and settings on your device.</li>
-      <li>If you allow it: to understand how players progress, tune level difficulty, and improve features (analytics).</li>
-      <li>If you allow it: to find and fix crashes (crash reports).</li>
+      <li>To save your progress and settings on your iPhone.</li>
+      <li>To understand how players move through the game and to adjust level difficulty and features (gameplay stats).</li>
+      <li>To find and fix crashes (crash reports).</li>
     </ul>
-    <p>We do not use information for advertising, profiling, or selling, and we do not combine it with data from other sources. Where the law requires a legal basis (for example in the EU/EEA and UK), optional analytics and crash reporting rely on your <strong>consent</strong>, which you can withdraw at any time.</p>
+    <p>We don’t use any of this for advertising, we don’t track you across other companies’ apps or websites, we don’t sell it, and we don’t combine it with information from other sources. Where the law asks for a legal basis (for example in the EU, EEA and UK), gameplay stats and crash reports are based on your consent, which you can withdraw at any time in Settings.</p>
   </section>
 
   <section>
-    <h2>8. Google Firebase</h2>
-    <p>Firebase Analytics and Firebase Crashlytics are provided by Google LLC, which processes this information on our behalf as a service provider. Google’s information about how Firebase handles data: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>, and Google’s Privacy Policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+    <h2>Who we share information with</h2>
+    <p>Gameplay stats and crash reports are processed for us by <strong>Google LLC</strong>, which provides Firebase Analytics and Firebase Crashlytics. Google handles this information according to its own terms and privacy commitments: <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p>We don’t share information with advertisers or data brokers. We may disclose information if the law requires it.</p>
+    <p>Google may process this information in the United States and other countries where it or its partners operate. Google describes the safeguards it uses for international transfers in the Firebase privacy information above.</p>
   </section>
 
   <section>
-    <h2>9. Sharing</h2>
-    <p>We do not sell or rent information, and we do not share it with advertisers or data brokers. Optional analytics and crash data are shared only with Google, as our service provider described above. We may disclose information if required by law.</p>
-  </section>
-
-  <section>
-    <h2>10. Retention and deletion</h2>
+    <h2>How long information is kept</h2>
     <div class="table-wrap">
       <table>
-        <tr><th>Information</th><th>How long it is kept</th></tr>
-        <tr><td>Game progress on your device</td><td>Until you delete the app.</td></tr>
-        <tr><td>Gameplay analytics</td><td>Event-level analytics data is kept for the retention period set in our Google Analytics property: <strong>[retention period to be confirmed: 2 months or 14 months]</strong>. Aggregated, anonymous reports may be kept longer.</td></tr>
-        <tr><td>Crash reports</td><td>90 days, after which Crashlytics deletes them.</td></tr>
+        <tr><th>Information</th><th>How long</th></tr>
+        <tr><td>Game progress on your iPhone</td><td>Until you delete the game.</td></tr>
+        <tr><td>Gameplay stats</td><td>Detailed stats are kept for <strong>[2 or 14 months, to be confirmed]</strong>, the retention period set in our Google Analytics account. Summary reports that don’t identify anyone may be kept longer.</td></tr>
+        <tr><td>Crash reports</td><td>90 days, then deleted automatically by Crashlytics.</td></tr>
       </table>
     </div>
-    <p><strong>Deleting data already sent:</strong> open Settings in the game → <em>What’s collected &amp; how to delete it</em>, copy your Analytics ID, and email it to <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a> asking for deletion. We will delete the analytics data associated with that ID using Google Analytics’ deletion tools. (If analytics is off, there is no ID and nothing is being collected.)</p>
   </section>
 
   <section>
-    <h2>11. Your choices</h2>
+    <h2>Your choices and deleting your data</h2>
     <ul>
-      <li><strong>First launch:</strong> choose <em>Allow &amp; Continue</em> to turn on optional analytics and crash reports, or <em>Not Now</em> to keep them off. Reading this policy does not turn anything on.</li>
-      <li><strong>Any time:</strong> in the game, open Pause → Home → Settings and switch <em>Share Gameplay Analytics</em> and <em>Send Crash Reports</em> on or off independently. Turning analytics off stops collection immediately and resets the identifier; turning crash reports off deletes reports not yet sent.</li>
-      <li>The game works the same whether these are on or off.</li>
-      <li>Depending on where you live, you may have rights to access, correct, delete, or restrict the processing of your information, or to complain to a data-protection authority. Contact us at the address above to exercise them.</li>
+      <li><strong>Turn sharing off:</strong> open Settings in the game and switch off <em>Share Gameplay Analytics</em>, <em>Send Crash Reports</em>, or both. Collection stops straight away. Turning gameplay stats off also resets the random ID; turning crash reports off deletes reports that haven’t been sent yet.</li>
+      <li><strong>Delete stats already sent:</strong> in Settings, tap <em>What’s collected &amp; how to delete it</em>, copy your Analytics ID, and email it to <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a> asking us to delete it. We’ll delete the stats linked to that ID using Google Analytics’ deletion tools.</li>
+      <li><strong>Delete everything on your iPhone:</strong> delete the game.</li>
+      <li>Depending on where you live, you may also have the right to see, correct or delete information about you, to object to or limit how it’s used, or to complain to your local data-protection authority. Email us and we’ll help.</li>
     </ul>
   </section>
 
   <section>
-    <h2>12. Children</h2>
-    <p>Petal Weave is a puzzle game suitable for all ages and contains no advertising, chat, or purchases. It does not ask for personal information. Optional analytics and crash reporting stay off unless switched on, and we do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has turned these on, you can switch them off in Settings and contact us to delete data already sent.</p>
+    <h2>Children</h2>
+    <p>Petal Weave is a gentle puzzle game suitable for all ages. It has no ads, chat or purchases, and it never asks for a name, email or other contact details. We don’t knowingly collect personal information from children. If you’re a parent or guardian, you can switch off gameplay stats and crash reports in Settings and email us to delete any stats already sent.</p>
   </section>
 
   <section>
-    <h2>13. International processing</h2>
-    <p>Google may process optional analytics and crash data in the United States and other countries where it or its subprocessors operate. Google states the safeguards it uses for international transfers in the Firebase privacy information linked above.</p>
-  </section>
-
-  <section>
-    <h2>14. Changes to this policy</h2>
-    <p>If the game’s data practices change, we will update this page and its “Last updated” date. If a change would collect new kinds of information, we will ask for your consent in the game where required.</p>
+    <h2>Changes to this policy</h2>
+    <p>If the way the game handles information changes, we’ll update this page and the “Last updated” date above. If a change means collecting a new kind of information, we’ll ask in the game first where the law requires it.</p>
   </section>
 
   <footer>
